@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "main.h"
+#include "printf.h"
+
 /**
  * _printf - function for format printing
  * @format: list of arguments to printing

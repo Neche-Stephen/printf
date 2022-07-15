@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
-#include "main.h"
+#include "printf.h"
 
 /**
  * checker - Function to check the actual specifier

@@ -1,5 +1,5 @@
 #include <stdarg.h>
-#include "main.h"
+#include "printf.h"
 
 /**
  * print_d - a function that prints an integer
@@ -8,13 +8,13 @@
  * Return: the number of digits printed
  */
 
-int print_d(va_list d)
+int print_i(va_list i)
 {
-	int i = 100000000;
+	int l = 100000000;
 	int n;
 	int count = 0;
 
-	n = va_arg(d, int);
+	n = va_arg(i, int);
 	if (n == 0)
 	{
 		_putchar('0');
@@ -26,14 +26,14 @@ int print_d(va_list d)
 		_putchar('-');
 		count++;
 	}
-	while (i)
+	while (l)
 	{
-		if (n / i != 0)
+		if (n / l != 0)
 		{
-			_putchar((n / i) % 10 + '0');
+			_putchar((n / l) % 10 + '0');
 			count++;
 		}
-		i /= 10;
+		l /= 10;
 	}
 	return (count);
 }

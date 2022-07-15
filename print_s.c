@@ -1,6 +1,6 @@
 #include <stdarg.h>
 #include <stdio.h>
-#include "main.h"
+#include "printf.h"
 /**
  * print_s - Function that prints a string of characters
  * @s the string to be printed

@@ -1,5 +1,5 @@
 #include <stdarg.h>
-#include "main.h"
+#include "printf.h"
 /**
  * print_d - a function that prints an integer
  * @d: the integer to print
