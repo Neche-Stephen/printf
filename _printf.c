@@ -19,7 +19,6 @@ int _putchar(char c)
 int _printf(const char *format, ...)
 {
 	int i;
-	size_t length = strlen(format);
 
 	for (i = 0; format[i] != '\0'; i++)
 	{
